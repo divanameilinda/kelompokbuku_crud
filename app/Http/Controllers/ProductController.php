@@ -78,10 +78,10 @@ class ProductController extends Controller
  
         return redirect()->route('product.index')->with('success', 'product deleted successfully');
     }
-    public function kelompokJagung()
+    public function dashboard()
 {
     $product = Product::all(); // Ambil semua produk
-    return view('product.kelompokjagung', compact('product'));
+    return view('product.dashboard', compact('product'));
 }
 
 }

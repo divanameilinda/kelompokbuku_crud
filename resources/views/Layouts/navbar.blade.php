@@ -2,8 +2,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
         <!-- Link untuk KelompokJagung -->
-        <a class="navbar-brand {{ request()->routeIs('product.kelompokjagung') ? 'active' : '' }}" 
-           href="{{ route('product.kelompokjagung') }}"><strong>.KelompokBuku</strong></a>
+        <a class="navbar-brand {{ request()->routeIs('product.dashboard') ? 'active' : '' }}" 
+           href="{{ route('product.dashboard') }}"><strong>.KelompokBuku</strong></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

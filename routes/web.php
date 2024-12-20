@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 // Route untuk halaman KelompokJagung (menampilkan daftar produk dengan hanya tombol Show)
-Route::get('/kelompokjagung', [ProductController::class, 'kelompokJagung'])->name('product.kelompokjagung');
+Route::get('/dashboard', [ProductController::class, 'dashboard'])->name('product.dashboard');
 
 // Menggunakan resource controller untuk produk (Add, Edit, Delete, Show)
 Route::resource('/product', ProductController::class);
